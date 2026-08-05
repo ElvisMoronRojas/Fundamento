@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+ int main()
+{
+    cout << "La España, grandiosa";
+    cout <<endl << "Condado benigno";
+    cout <<endl<< "Aquí plantó el signo";
+    cout <<endl<< "De la redención";
+    return 0;
+}
+
+
