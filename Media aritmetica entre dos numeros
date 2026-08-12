@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float numero1, numero2, mitad;
+    cout<<"Ingrese el primer numero: ";cin>>numero1;
+    cout<<"Ingrese el segundo numero: "; cin>>numero2;
+    mitad= (numero1+numero2)/2;
+    cout<<"La media aritmetica es: "<<mitad;
+    return 0;
+}
