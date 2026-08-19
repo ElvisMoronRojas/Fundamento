@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+   
+    float a,b,c;
+    double x1,x2;
+    
+    cout<<"Introduzca el dato a: ";cin>>a;
+    cout<<"Introduzca el dato b: ";cin>>b;
+    cout<<"Introduzca el dato c: ";cin>>c;
+    
+    x1=(-b+sqrt(b*b-4*a*c))/(2*a);
+    x2=(-b-sqrt(b*b-4*a*c))/(2*a);
+    
+    cout<<"La primer raiz es: "<<x1<<endl;
+    cout<<"La segunda raiz es: "<<x2;
+    return 0;
+
+}
