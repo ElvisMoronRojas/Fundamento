@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int numero, resultado=0;
+    cout<<"Ingrese el primer numero: ";
+    cin>>numero;
+    resultado=resultado+numero;
+    cout<<"Ingrese el segundo numero: ";
+    cin>>numero;
+    resultado=resultado+numero;
+    cout<<"Ingrese el tercer numero: ";
+    cin>>numero;
+    resultado=resultado+numero;
+    cout<<"Ingrese el cuarto numero: ";
+    cin>>numero;
+    resultado=resultado+numero;
+    cout<<"Ingrese el quinto numero: ";
+    cin>>numero;
+    resultado=resultado+numero;
+    resultado=resultado/5;
+    cout<<"El promedio entero es: "<<resultado;
+    return 0;
+}
