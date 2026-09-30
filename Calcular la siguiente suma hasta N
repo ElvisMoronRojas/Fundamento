@@ -1,0 +1,25 @@
+//Calcular la siguiente suma
+//S = 1 - 2 + 3 - 4 + 5 - ......... + / -N.
+//Elvis Moron Practico Ciclos Ejercicio 4
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int  n,i=1,total=0;
+    do {
+        cout << "Ingrese el numero hasta el cual desea sumar: ";
+        cin >> n;
+    } while (n <= 0);
+    for (i; i <= n; i++) {
+        if (i % 2 == 0) {
+            total =total -i;
+        }
+        else {
+            total= total +i;
+        }
+    }
+    cout << "El resultado de la suma intercalada es: " << total;
+    return 0;
+}
